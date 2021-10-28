@@ -1,0 +1,52 @@
+html, body{
+    background-color: rgb(41, 41, 41);
+    width: 99%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+logo{
+    text-align: start;
+    font-size: 15px; 
+    color: rgb(156, 95, 151); 
+}
+
+logo > h1{
+    margin-left: 100px; 
+}
+
+
+
+a{
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(173, 173, 173);
+    font-size: 20.5px;
+    transition: 1s;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+nav{
+    background-color: rgb(41, 41, 41);
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav> ul > li{
+    margin: 10px 50px;
+}
+

@@ -1,0 +1,91 @@
+html, body{
+    background-color: rgb(41, 41, 41);
+    width: 99%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    font-size: 40px;  
+    margin-left: 100px; 
+    color: rgb(156, 95, 151);
+    font-weight: 5000;
+    width: 25%;
+   
+}
+.logo > h1 {
+    margin-bottom: 0;
+}
+
+.logo > p {
+    text-align: end;
+    font-size: 1.5vw;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+form{
+    display: flex;
+    flex-direction:  column;
+    align-items:  center;
+    background-color: #4E4C4C;
+    width: 400px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+input{
+    background-color: #727272;
+    width: 250px;
+    height: 35px;
+    margin: 25px;
+    text-align: center;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+
+  input:focus::placeholder {
+    transform: scale(0.75);
+    transition: 1s;
+    opacity: 0.25;
+  }
+
+button{
+    color: rgb(117, 117, 117);
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #c4c4c4;
+    min-width: 125px;
+    min-height: 35px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+a{
+    margin-bottom: 50px;
+    color: rgb(218, 218, 218);
+    font-size: small;
+}
+
+
+background{
+    position: fixed;
+    right: 0px;
+    bottom: -30vh;
+}

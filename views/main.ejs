@@ -1,0 +1,36 @@
+<%- include("partials/header") %>
+<link rel="stylesheet" href="/css/stockStyle.css">
+
+<body>
+
+
+    <div class="container">
+
+        <div class="box">
+            
+        <% stockItems.forEach(function(item){ %>
+           
+            <div class='stockWrapper'>
+
+                <img class="icon" src=<%= item.img %> >
+                <p><%= item.name %> </p>
+                <p>Stock: <%= item.stock %>  </p>
+                <p>Price: $ <%= item.price %>   </p>
+                <p>Date: <%= item.date %> </p>
+
+           
+            </div>
+
+        <% }) %>   
+    </div> 
+    </div>
+
+    <background>
+        <img src="pic/moon.png">
+    </background>
+</body>
+
+
+
+
+<%- include("partials/footer") %>
